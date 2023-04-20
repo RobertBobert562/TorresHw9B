@@ -1,0 +1,23 @@
+{
+  "name": "torreshw9b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertBobert562/TorresHw9B.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RobertBobert562/TorresHw9B/issues"
+  },
+  "homepage": "https://github.com/RobertBobert562/TorresHw9B#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "postman": "^0.2.0"
+  }
+}

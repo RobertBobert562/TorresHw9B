@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torres HW9B</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h1><a href="/">Link to Start Page</a>/h1>
+    <h2>Torres HW9B</h2>
+    <h3>View console to see JavaScript Output</h3>
+
+    <h2>Sample Form</h2>
+    <form id="sampleForm" method="POST" action="/ex1.html">
+
+
+      
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    
+      <br>
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="name@domain" required>
+    
+      <br>
+    
+      <label>Payment Type:</label>
+      <div id="paymentType">
+        <input type="radio" id="cash" name="paymentType" value="cash" required>
+        <label for="cash">Cash</label>
+    
+        <input type="radio" id="creditCard" name="paymentType" value="creditCard" required>
+        <label for="creditCard">Credit Card</label>
+    
+        <input type="radio" id="googlePay" name="paymentType" value="googlePay" required>
+        <label for="googlePay">Google Pay</label>
+    
+        <input type="radio" id="applePay" name="paymentType" value="applePay" required>
+        <label for="applePay">Apple Pay</label>
+      </div>
+    
+      <br>
+    
+      <label for="promoCheckbox">Sign me up for special promotions</label>
+      <input type="checkbox" id="promoCheckbox" name="promoCheckbox" value="yes">
+    
+      <br>
+    
+      <label for="location">Preferred Location:</label>
+      <select id="location" name="location" required>
+        <option value="">Select location</option>
+        <option value="losAngeles">Los Angeles</option>
+        <option value="orangeCounty">Orange County</option>
+        <option value="riverside">Riverside</option>
+        <option value="sanDiego">San Diego</option>
+      </select>
+    
+      <br>
+    
+      <button type="submit">Submit</button>
+      <button type="reset">Cancel</button>
+    
+    </form>
+
+    <h2>Form Data Entered</h2>
+
+    <table id="result">
+    </table>
+
+    <script src="../public/ex1.js"></script>
+</body>
+</html>
